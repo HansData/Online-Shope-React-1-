@@ -7,7 +7,7 @@ import InputSearch from '../Elements/InputSearch';
 import NavBurger from '../Elements/NavBurger';
 const Navbar = () => {
   return (
-    <div className="bg-white/70 p-4 flex justify-evenly items-center w-full lg:h-[70px] fixed">
+    <div className="bg-white/70 p-4 flex justify-evenly items-center w-full lg:h-[70px] fixed top-0 z-50">
       <div className="lg:flex hidden lg:justify-evenly lg:items-center lg:w-full">
         <Logo />
         <ButtonKategory />
